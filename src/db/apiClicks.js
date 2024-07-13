@@ -24,7 +24,7 @@ export const storeClicks = async ({ id, originalUrl }) => {
             country,
             device
         })
-        console.log(originalUrl)
+        // console.log(originalUrl)
         window.location.replace(originalUrl)
     } catch (error) {
         console.log("Error recording click:", error)

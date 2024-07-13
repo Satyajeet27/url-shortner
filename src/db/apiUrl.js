@@ -9,7 +9,7 @@ export async function getUrls(user_id) {
         console.error(error)
         throw new Error("Unable to load URLs")
     }
-    console.log(data)
+    // console.log(data)
     return data
 }
 export async function deleteUrl(id) {
